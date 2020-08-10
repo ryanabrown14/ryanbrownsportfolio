@@ -158,7 +158,7 @@ header nav ul li a{
 
 .work-name {
     text-decoration: none;
-    z-index: 9999;
+    z-index: 9998;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -171,6 +171,7 @@ header nav ul li a{
     justify-content: center;
     transition: all 0.5s;
     color: var(--third-color);
+    font-weight: bold;
  
 }
   
@@ -192,6 +193,20 @@ address a{
     font-size: 1.5vw;
     padding: 10px;
         
+    }
+footer{
+    background: var(--third-color);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+footer h2 {
+    display: inline;
+    color: var(--secondary-color);
+    font-size: 20px;
+    margin: 0;
     }
 
 @media screen and (max-width: 980px) {
@@ -232,4 +247,10 @@ address{
 address a {
     font-size: 20px;
     line-height: 1.5;
+}
+.work-name {
+    opacity: 1;
+    
+    
+}
 }
